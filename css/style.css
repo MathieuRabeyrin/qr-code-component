@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+main figure {
+    max-width: 35rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.3rem var(--light-gray);
+}
+
+main figure img {
+    border-radius: 1rem;
+}
+
+main figure figcaption {
+    padding: 2rem;
+}
+
+main figure figcaption h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+main figure figcaption p {
+    margin-top: 1.5rem;
+    color: var(--light-gray);
+    text-align: center;
+}
