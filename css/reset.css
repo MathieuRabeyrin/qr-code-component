@@ -20,7 +20,7 @@ body {
     height: 100vh;
 }
 
-h1,h2,h3,h4,p,ul,ol, figure {
+h1, p, figure {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -34,7 +34,6 @@ h1,h2,h3,h4,p,ul,ol, figure {
 img {
     display: inline-block;
     width: 100%;
-    height: 100%;
     vertical-align: middle;
     object-fit: cover;
 }
